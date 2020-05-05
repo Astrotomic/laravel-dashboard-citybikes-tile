@@ -17,7 +17,7 @@
                     <span>
                         <span class="
                             font-bold tabular-nums
-                            {{ $station->isNearlyEmpty() ? $stations->displayClass() : '' }}
+                            {{ $station->isNearlyEmpty() ? $station->displayClass() : '' }}
                         ">
                             {{ $station->numberOfBikesAvailable() }}
                         </span>
