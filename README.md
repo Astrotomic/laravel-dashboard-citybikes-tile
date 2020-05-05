@@ -1,5 +1,7 @@
 # A tile to display the status of CityBikes Stations
 
+![Screenshot of Dashboard Tile](tile.png)
+
 [![Latest Version](http://img.shields.io/packagist/v/astrotomic/laravel-dashboard-citybikes-tile.svg?label=Release&style=for-the-badge)](https://packagist.org/packages/astrotomic/laravel-dashboard-citybikes-tile)
 [![MIT License](https://img.shields.io/github/license/Astrotomic/laravel-dashboard-citybikes-tile.svg?label=License&color=blue&style=for-the-badge)](https://github.com/Astrotomic/laravel-dashboard-citybikes-tile/blob/master/LICENSE)
 [![Offset Earth](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-green?style=for-the-badge)](https://plant.treeware.earth/Astrotomic/laravel-dashboard-citybikes-tile)
@@ -11,7 +13,6 @@
 [![Open Collective](https://img.shields.io/opencollective/all/astrotomic?label=Open%20Collective&style=flat-square)](https://opencollective.com/astrotomic)
 
 This tile can be used on the [Laravel Dashboard](https://docs.spatie.be/laravel-dashboard) to display the status of [Citybikes](https://citybik.es/) Stations - an API for bike services all over the world.
-
 
 ## Installation
 
