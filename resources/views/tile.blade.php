@@ -1,12 +1,8 @@
 <x-dashboard-tile :position="$position" :refresh-interval="$refreshIntervalInSeconds">
     <div class="grid grid-rows-auto-1 gap-2 h-full">
-        <div
-            class="flex items-center justify-center w-10 h-10 rounded-full"
-            style="background-color: rgba(255, 255, 255, .9)"
-        >
-            <div class="text-3xl leading-none -mt-1">
-                🚲
-            </div>
+        <div class="flex justify-center items-center h-10">
+            <div class="text-3xl leading-none w-10">🚲</div>
+            <div class="text-xl leading-none">CityBikes</div>
         </div>
         <ul class="self-center | divide-y-2">
             @foreach($stations as $station)
@@ -25,8 +21,5 @@
                 </li>
             @endforeach
         </ul>
-        <div class="text-gray-500 text-sm">
-            Data provided by <a href="https://citybik.es">CityBikes</a>
-        </div>
     </div>
 </x-dashboard-tile>
