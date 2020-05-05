@@ -16,7 +16,7 @@ class CitybikesStore
 
     public function __construct()
     {
-        $this->tile = Tile::firstOrCreateForName("citybikes");
+        $this->tile = Tile::firstOrCreateForName('citybikes');
     }
 
     public function setStations(array $stations): self

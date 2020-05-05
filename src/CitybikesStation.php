@@ -2,7 +2,6 @@
 
 namespace Astrotomic\CitybikesTile;
 
-
 class CitybikesStation
 {
     protected array $attributes;

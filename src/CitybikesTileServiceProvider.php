@@ -16,10 +16,10 @@ class CitybikesTileServiceProvider extends ServiceProvider
         }
 
         $this->publishes([
-            __DIR__ . '/../resources/views' => resource_path('views/vendor/dashboard-citybikes-tile'),
+            __DIR__.'/../resources/views' => resource_path('views/vendor/dashboard-citybikes-tile'),
         ], 'dashboard-citybikes-tile-views');
 
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'dashboard-citybikes-tile');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'dashboard-citybikes-tile');
 
         Livewire::component('citybikes-tile', CitybikesTileComponent::class);
     }

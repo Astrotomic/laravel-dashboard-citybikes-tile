@@ -18,7 +18,7 @@ class CitybikesApiTest extends TestCase
         $this->assertIsArray($stations);
         $this->assertNotEmpty($stations);
 
-        foreach($stations as $station) {
+        foreach ($stations as $station) {
             $this->assertIsArray($station);
             $this->assertArrayHasKey('id', $station);
             $this->assertArrayHasKey('name', $station);
@@ -42,7 +42,7 @@ class CitybikesApiTest extends TestCase
         $this->assertIsArray($stations);
         $this->assertCount(2, $stations);
 
-        foreach($stations as $station) {
+        foreach ($stations as $station) {
             $this->assertIsArray($station);
             $this->assertArrayHasKey('id', $station);
             $this->assertContains($station['id'], $stationIds);

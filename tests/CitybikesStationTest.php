@@ -2,7 +2,6 @@
 
 namespace Astrotomic\CitybikesTile\Tests;
 
-use Astrotomic\CitybikesTile\CitybikesApi;
 use Astrotomic\CitybikesTile\CitybikesStation;
 use Orchestra\Testbench\TestCase;
 

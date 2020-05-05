@@ -14,7 +14,7 @@ class CitybikesApi
         $stations = Http::get('http://api.citybik.es'.$networkHref)->json();
 
         return collect($stations['network']['stations'] ?? [])
-            ->when($stationIds, function(Collection $stations) use ($stationIds): Collection {
+            ->when($stationIds, function (Collection $stations) use ($stationIds): Collection {
                 return $stations
                     ->filter(fn (array $station) => in_array($station['id'], $stationIds))
                     ->values()
