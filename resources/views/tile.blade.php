@@ -25,5 +25,8 @@
                 </li>
             @endforeach
         </ul>
+        <div class="text-gray-500 text-sm">
+            Data provided by <a href="https://citybik.es">CityBikes</a>
+        </div>
     </div>
 </x-dashboard-tile>
