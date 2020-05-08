@@ -24,11 +24,11 @@ class CitybikesStation
     public function displayClass(): string
     {
         if ($this->isEmpty()) {
-            return 'line-through';
+            return 'line-through text-dimmed';
         }
 
         if ($this->isNearlyEmpty()) {
-            return 'text-danger';
+            return 'text-warning';
         }
 
         return '';

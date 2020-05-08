@@ -13,7 +13,7 @@
                     <span>
                         <span class="
                             font-bold tabular-nums
-                            {{ $station->isNearlyEmpty() ? $station->displayClass() : '' }}
+                            {{ $station->isEmpty() ? 'text-dimmed' : ($station->isNearlyEmpty() ? $station->displayClass() : '') }}
                         ">
                             {{ $station->numberOfBikesAvailable() }}
                         </span>
