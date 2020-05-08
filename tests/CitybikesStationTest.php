@@ -34,7 +34,7 @@ class CitybikesStationTest extends TestCase
         $this->assertSame(2, $station->numberOfBikesAvailable());
         $this->assertFalse($station->isEmpty());
         $this->assertTrue($station->isNearlyEmpty());
-        $this->assertSame('text-danger', $station->displayClass());
+        $this->assertSame('text-warning', $station->displayClass());
     }
 
     /** @test */
@@ -49,6 +49,6 @@ class CitybikesStationTest extends TestCase
         $this->assertSame(0, $station->numberOfBikesAvailable());
         $this->assertTrue($station->isEmpty());
         $this->assertTrue($station->isNearlyEmpty());
-        $this->assertSame('line-through', $station->displayClass());
+        $this->assertSame('line-through text-dimmed', $station->displayClass());
     }
 }
