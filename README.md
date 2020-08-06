@@ -60,7 +60,7 @@ In your dashboard view you use the `livewire:citybikes-tile` component.
 
 ```html
 <x-dashboard>
-  <livewire:citybikes-tile position="a1" />
+    <livewire:citybikes-tile position="a1" />
 </x-dashboard>
 ```
 
@@ -92,8 +92,8 @@ If you discover any security related issues, please check [SECURITY](https://git
 
 ## Credits
 
-- [Tom Witkowski](https://github.com/Gummibeer)
-- [All Contributors](https://github.com/Astrotomic/laravel-dashboard-citybikes-tile/graphs/contributors)
+-   [Tom Witkowski](https://github.com/Gummibeer)
+-   [All Contributors](https://github.com/Astrotomic/laravel-dashboard-citybikes-tile/graphs/contributors)
 
 ## License
 
